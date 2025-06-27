@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',            // activation de l'export statique automatique
-  basePath: '/the-key-landing/the-key-landing', // <-- nom exact de ton dossier ou repo GitHub
+  basePath: '/The-Key-demo', // <-- nom exact de ton dossier ou repo GitHub
   images: {
     unoptimized: true,
   },
