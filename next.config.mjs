@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export',                  // Exportation statique activée
   basePath: '/The-Key-demo',         // Nom de ton sous-dossier GitHub Pages
-  assetPrefix: '/',     // Chemin des ressources statiques
+  assetPrefix: '/The-Key-demo/',     // Chemin des ressources statiques
   images: {
     unoptimized: true,               // Nécessaire pour les images dans un projet exporté
   },
