@@ -1,17 +1,14 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',                  // Exportation statique activée
-  basePath: '/The-Key-demo',         // Nom de ton sous-dossier GitHub Pages
-  assetPrefix: '/The-Key-demo/The-Key-demo/',     // Chemin des ressources statiques
+  output: 'export',
+  basePath: '/The-Key-demo',
+  assetPrefix: '/The-Key-demo/',  // <-- ici, une seule fois '/The-Key-demo/'
   images: {
-    unoptimized: true,               // Nécessaire pour les images dans un projet exporté
+    unoptimized: true,
   },
   eslint: {
-    ignoreDuringBuilds: true,        // Ignore les erreurs ESLint pendant le build
+    ignoreDuringBuilds: true,
   },
   typescript: {
-    ignoreBuildErrors: true,         // Ignore les erreurs TypeScript pendant le build
+    ignoreBuildErrors: true,
   },
-}
-
-export default nextConfig
+};
