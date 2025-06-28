@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/The-Key-demo',
+  basePath: '/',
   assetPrefix: '/The-Key-demo/',  
   images: {
     unoptimized: true,
