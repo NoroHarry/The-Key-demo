@@ -1,7 +1,8 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
   basePath: '/The-Key-demo',
-  assetPrefix: '/',  
+  assetPrefix: '/The-Key-demo/',  
   images: {
     unoptimized: true,
   },
@@ -12,3 +13,5 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
 };
+
+export default nextConfig
